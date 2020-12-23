@@ -20,7 +20,7 @@ timezone: Asia/Seoul
 ##############################
 author:
   type      : person
-  name      : HyunjoonKim
+  name      : Hyunjoon Kim
   url       : 
   avatar    : 
   bio       : 
@@ -34,8 +34,8 @@ author:
   zhihu     : 
   douban    : 
   linkedin  : 
-  github    : jETA-Kor
-  npm       : jetalog
+  github    : hyunjoonkim
+  npm       : Hyunjoon Kim
  
  
 ## => GitHub Repository (if the site is hosted by GitHub)
