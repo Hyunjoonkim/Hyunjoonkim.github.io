@@ -34,7 +34,7 @@ Syntax highlighted code block
 
 
 
-Table 1 shows the data used in the 5 cases. In our mathematical models and proposed algorithm, the Minkowski distance, c<sub>ij</sub>=({\vertdx\vert}^p +{\vertdy\vert}^p)^(1/p) with p=1.31, where dx represents the distance between two points (locations i and j) along the first axis, and dy along the second axis.
+Table 1 shows the data used in the 5 cases. In our mathematical models and proposed algorithm, the Minkowski distance, c<sub>ij</sub>=(\abs{dx}\<sup>p</sup> +{\abs{dy}<sup>p</sup>)<sup>(1/p)</sup> with p=1.31, where dx represents the distance between two points (locations i and j) along the first axis, and dy along the second axis.
 
 ||**Case 1**|**Case 2**|**Case 3**|**Case 4**|**Case 5**|
 |:---|:---:|:---:|:---:|:---:|:---:|
