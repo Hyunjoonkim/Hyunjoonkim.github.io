@@ -2,7 +2,7 @@
 
 ## Curriculum Vitae
 
-
+|||
 |:---|:---|
 |**Name**|Hyunjoon Kim|
 |**Address**|Department of Industrial and Management Engineering, Pohang University of Science and Technology (POSTECH), Pohang, Gyeongbuk, Korea|
