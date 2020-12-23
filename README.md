@@ -30,11 +30,11 @@ Syntax highlighted code block
 
 
 ![Figure 1  Rectangle of 11 km  9 km surrounding the city of Paris (Google Map)](https://user-images.githubusercontent.com/29350999/102963167-cbcc3480-452b-11eb-8b16-491b7dd11c40.jpg)
-
 <center> Figure 1. Rectangle of 11 km x 9 km surrounding the city of Paris (Google Map) </center>
 
 
-Table 1 shows the data used in the 5 cases. In our mathematical models and proposed algorithm, the Minkowski distance, cij=({\vert dx\vert}^p +{\vert dy \vert}^p)1/p with p=1.31, where dx represents the distance between two points (locations i and j) along the first axis, and dy along the second axis.
+
+Table 1 shows the data used in the 5 cases. In our mathematical models and proposed algorithm, the Minkowski distance, c<sub>ij</sub>=({\vertdx\vert}^p +{\vertdy\vert}^p)^(1/p) with p=1.31, where dx represents the distance between two points (locations i and j) along the first axis, and dy along the second axis.
 
 ||**Case 1**|**Case 2**|**Case 3**|**Case 4**|**Case 5**|
 |:---|:---:|:---:|:---:|:---:|:---:|
@@ -44,34 +44,15 @@ Table 1 shows the data used in the 5 cases. In our mathematical models and propo
 |_K: total number of HRSs_|2|3|3|8|9|
 
 The parameters used in the algorithm are as follows.
-- We choose to represent the city by the grid of 111  91 cells, considering the geography of Paris (Figure 1) with 1 cell ≈ 100 meters.
-- The minimum and the maximum number of customers related to HRS capacity, denoted by nmin and nmax, are set to 36 and 125, respectively. The dmin, used to make the eligible potential points set Ie, is set to 35.5, which is the quarter of the city area’s diagonal length.
+- We choose to represent the city by the grid of 111 x 91 cells, considering the geography of Paris (Figure 1) with 1 cell ≈ 100 meters.
+- The minimum and the maximum number of customers related to HRS capacity, denoted by n<sub>min</sub> and n<sub>max</sub>, are set to 36 and 125, respectively. The d<sub>min</sub>, used to make the eligible potential points set _I<sub>e</sub>_, is set to 35.5, which is the quarter of the city area’s diagonal length.
 
 The 5 benchmark data sets can be downloaded by click here.
 There are three input files for each case.
 1. “Demand_coordinate_Case#.csv” - a set of demand customers is given with the following characteristics: Demand index, X coordinate, Y coordinate
 2. “Existing_HRS_coordinate_Case#.csv” - a set of existing HRSs is given with the following characteristics: Existing HRS index, X coordinate, Y coordinate
-3. “Option.csv” - a set of parameters used in the experiments: X-axis range, Y-axis range, W1, W2, nmin, nmax, p value used in Minkowski distance calculation, dmin
+3. “Option.csv” - a set of parameters used in the experiments: X-axis range, Y-axis range, W1, W2, n<sub>min</sub>, n<sub>max</sub>, p value used in Minkowski distance calculation, d<sub>min</sub>
 
 
 
-- Bulleted
-- List
 
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/Hyunjoonkim/Hyunjoonkim.github.io/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
