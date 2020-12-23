@@ -1,6 +1,6 @@
-# Welcome to Hyunjoon kim's homepage
+# Curriculum Vitae
 
-## Curriculum Vitae
+##Personal information
 
 |**Personal information**||
 |:---|:---|
