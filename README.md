@@ -48,7 +48,7 @@ The parameters used in the algorithm are as follows.
 - We choose to represent the city by the grid of 111 x 91 cells, considering the geography of Paris (Figure 1) with 1 cell ≈ 100 meters.
 - The minimum and the maximum number of customers related to HRS capacity, denoted by n<sub>min</sub> and n<sub>max</sub>, are set to 36 and 125, respectively. The d<sub>min</sub>, used to make the eligible potential points set _I<sub>e</sub>_, is set to 35.5, which is the quarter of the city area’s diagonal length.
 
-The 5 benchmark data sets can be downloaded by click [here]([Benchmark data.zip](https://github.com/Hyunjoonkim/Hyunjoonkim.github.io/files/5733593/Benchmark.data.zip).
+The 5 benchmark data sets can be downloaded by click [Benchmark data.zip](https://github.com/Hyunjoonkim/Hyunjoonkim.github.io/files/5733593/Benchmark.data.zip).
 There are three input files for each case.
 1. “Demand_coordinate_Case#.csv” - a set of demand customers is given with the following characteristics: Demand index, X coordinate, Y coordinate
 2. “Existing_HRS_coordinate_Case#.csv” - a set of existing HRSs is given with the following characteristics: Existing HRS index, X coordinate, Y coordinate
