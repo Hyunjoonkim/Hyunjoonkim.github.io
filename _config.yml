@@ -3,9 +3,9 @@ theme: jekyll-theme-architect
 ##############################
 text_skin: forest
 highlight_theme: default
-url     : https://jeta-kor.github.io
+url     : https://hyunjoonkim.github.io
 baseurl : 
-title   : jetalog
+title   : Hyunjoon Kim
 description: >
   Description
  
@@ -20,8 +20,8 @@ timezone: Asia/Seoul
 ##############################
 author:
   type      : person
-  name      : jETA
-  url       : https://jetalog.net
+  name      : HyunjoonKim
+  url       : 
   avatar    : 
   bio       : 
   email     :
@@ -40,15 +40,15 @@ author:
  
 ## => GitHub Repository (if the site is hosted by GitHub)
 ##############################
-repository: jETA-Kor/jeta-kor.github.io
+repository: hyunjoonkim/hyunjoonkim.github.io
 repository_tree: master
  
  
 ## => Paths
 ##############################
 paths:
-  root    : /archive.html
-  home    : /archive.html
+  root    : /Benchmark_Problems_for_HRS_locations/
+  home    : /Benchmark_Problems_for_HRS_locations/
   archive : 
   rss     : 
  
