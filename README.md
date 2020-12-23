@@ -3,7 +3,9 @@
 ### Benchmark Problems for H. Kim, B.-I. Kim, and D. Thiel “Optimal Incremental Deployment Method of Hydrogen Refueling Stations,” working paper, 2020
 
 Benchmark Problems for H. Kim, B.-I. Kim, and D. Thiel “Optimal Incremental Deployment Method of Hydrogen Refueling Stations,” working paper, 2020
+<br/>
 <center>The 5 benchmark data sets can be downloaded by click [here]([Benchmark data.zip](https://github.com/Hyunjoonkim/Hyunjoonkim.github.io/files/5733593/Benchmark.data.zip).</center>
+<br/>
 
 #1.	Introduction
 
@@ -31,7 +33,7 @@ Benchmark Problems for H. Kim, B.-I. Kim, and D. Thiel “Optimal Incremental De
 
 ![Figure 1  Rectangle of 11 km  9 km surrounding the city of Paris (Google Map)](https://user-images.githubusercontent.com/29350999/102963167-cbcc3480-452b-11eb-8b16-491b7dd11c40.jpg)
 <center> Figure 1. Rectangle of 11 km x 9 km surrounding the city of Paris (Google Map) </center>
-#
+<br/>
 
 Table 1 shows the data used in the 5 cases. In our mathematical models and proposed algorithm, the Minkowski distance, c<sub>ij</sub>=(<abs>{dx}</abs>\<sup>p</sup> +{<abs>{dy}</abs><sup>p</sup>)<sup>(1/p)</sup> with p=1.31, where dx represents the distance between two points (locations i and j) along the first axis, and dy along the second axis.
 
