@@ -1,6 +1,55 @@
 theme: jekyll-theme-architect
-urls:
-- text : About Me
-  url : /Benchmark_Problems_for_HRS_locations/
-- text : Benchmark
-  url : /Benchmark_Problems_for_HRS_locations/
+## => Site Settings
+##############################
+text_skin: forest
+highlight_theme: default
+url     : https://jeta-kor.github.io
+baseurl : 
+title   : jetalog
+description: >
+  Description
+ 
+ 
+## => Language and Timezone
+##############################
+lang: ko
+timezone: Asia/Seoul
+ 
+ 
+## => Author and Social
+##############################
+author:
+  type      : person
+  name      : jETA
+  url       : https://jetalog.net
+  avatar    : 
+  bio       : 
+  email     :
+  facebook  : 
+  twitter   : 
+  weibo     : 
+  googleplus: 
+  telegram  : 
+  medium    : 
+  zhihu     : 
+  douban    : 
+  linkedin  : 
+  github    : jETA-Kor
+  npm       : jetalog
+ 
+ 
+## => GitHub Repository (if the site is hosted by GitHub)
+##############################
+repository: jETA-Kor/jeta-kor.github.io
+repository_tree: master
+ 
+ 
+## => Paths
+##############################
+paths:
+  root    : /archive.html
+  home    : /archive.html
+  archive : 
+  rss     : 
+ 
+# ...
