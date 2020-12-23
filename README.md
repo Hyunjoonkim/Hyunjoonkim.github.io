@@ -37,6 +37,7 @@ The 5 benchmark data sets can be downloaded by click [Benchmark data.zip](https:
 
 Table 1 shows the data used in the 5 cases. In our mathematical models and proposed algorithm, the Minkowski distance, c<sub>ij</sub>=(\lvert dx \rvert\<sup>p</sup> +{abs(dy)<sup>p</sup>)<sup>(1/p)</sup> with p=1.31, where dx represents the distance between two points (locations i and j) along the first axis, and dy along the second axis.
 
+<center>Table 1. Five different cases of gradual HRS launching</center>
 ||**Case 1**|**Case 2**|**Case 3**|**Case 4**|**Case 5**|
 |:---|:---:|:---:|:---:|:---:|:---:|
 |_n(D): number of customers_|125|250|125|875|875|
