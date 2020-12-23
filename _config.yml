@@ -7,13 +7,13 @@ url     : https://hyunjoonkim.github.io
 baseurl : 
 title   : Hyunjoon Kim
 description: >
-  About Me
+  [About Me]("https://hyunjoonkim.github.io/Benchmark_Problems_for_HRS_locations/")
  
  
 ## => Language and Timezone
 ##############################
 lang: ko
-timezone: Asia/Seoul
+timezone: Pohang/Korea
  
  
 ## => Author and Social
