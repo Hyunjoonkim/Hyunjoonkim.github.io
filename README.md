@@ -17,8 +17,9 @@
 |**B.S.**|Dept. of Mathematics, POSTECH, Korea, Feb. 2016|
 
 ## Research Interests
+
 |**Research area**|Contents|
 |:---|:---|
-|**Vehicle Routing**|Exact and Heuristic Techniques with Applications to Vehicle Routing Problem
-|**Facility Location Problem**|Exact and Heuristic Techniques with Applications to Hydrogen Refueling Station (HRS) Location Problem
-|**Scheduling Problem**|Exact and Heuristic Techniques with Applications to Scheduling Problem
+|**Vehicle Routing**|Exact and Heuristic Techniques with Applications to Vehicle Routing Problem|
+|**Facility Location Problem**|Exact and Heuristic Techniques with Applications to Hydrogen Refueling Station (HRS) Location Problem|
+|**Scheduling Problem**|Exact and Heuristic Techniques with Applications to Scheduling Problem|
