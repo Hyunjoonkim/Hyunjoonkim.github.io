@@ -32,7 +32,7 @@ Syntax highlighted code block
 ![Figure 1  Rectangle of 11 km  9 km surrounding the city of Paris (Google Map)](https://user-images.githubusercontent.com/29350999/102963167-cbcc3480-452b-11eb-8b16-491b7dd11c40.jpg)
 
 
-Table 1 shows the data used in the 5 cases. In our mathematical models and proposed algorithm, the Minkowski distance, cij=(|dx|p +|dy|p)1/p with p=1.31, where dx represents the distance between two points (locations i and j) along the first axis, and dy along the second axis.
+Table 1 shows the data used in the 5 cases. In our mathematical models and proposed algorithm, the Minkowski distance, cij=({\vert dx\vert}^p +{\vert dy \vert}^p)1/p with p=1.31, where dx represents the distance between two points (locations i and j) along the first axis, and dy along the second axis.
 
 ||**Case 1**|**Case 2**|**Case 3**|**Case 4**|**Case 5**|
 |:---|:---:|:---:|:---:|:---:|:---:|
