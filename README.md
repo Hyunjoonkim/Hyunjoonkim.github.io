@@ -21,7 +21,7 @@ The 5 benchmark data sets can be downloaded by click [here]([Benchmark data.zip]
 #2.	Benchmark Problems
 
   Given that a set of HRSs are already located, we propose to locate incrementally one or two new HRSs at the saturation point when all HRSs have nmax of customers.
-  We represent the city of Paris (11 km x 9 km) by a rectangular grid defined from (0,0) to (110,90) with 10,101 possible locations in which new HRSs can be located. The first existing HRS is installed close to Pont de l’Alma (see Figure 1). Considering that taxis are moving everywhere within the city, we assume that demand points are uniformly distributed in the city. Each HRS can supply a maximum of 200 kg/day which corresponds to a maximal number of customers per day nmax = 125. In appendix 1, we calculate the minimum number of customers to attract to reach the payback period in 5 years, nmin = 36.
+  We represent the city of Paris (11 km x 9 km) by a rectangular grid defined from (0,0) to (110,90) with 10,101 possible locations in which new HRSs can be located. The first existing HRS is installed close to Pont de l’Alma (see Figure 1). Considering that taxis are moving everywhere within the city, we assume that demand points are uniformly distributed in the city. Each HRS can supply a maximum of 200 kg/day which corresponds to a maximal number of customers per day n<sub>max</sub> = 125. In appendix 1, we calculate the minimum number of customers to attract to reach the payback period in 5 years, n<sub>min</sub> = 36.
   
   We choose 5 cases of incremental HRS launching as follows:
 - Case 1: Extend one existing HRS to two HRSs (one additional HRS)
