@@ -1,6 +1,6 @@
 # Curriculum Vitae
 
-##Personal information
+## Personal information
 
 |**Personal information**||
 |:---|:---|
