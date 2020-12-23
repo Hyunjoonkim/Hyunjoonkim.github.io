@@ -16,8 +16,36 @@ Syntax highlighted code block
 - To ensure that the HRSs are as far as possible from each other
 - To get as close as possible to a limited number of customers but sufficient to ensure a HRS investment payback period of 5 years maximum and also to capture these customers thanks to a minimal distance from their parking place.
 
+#2.	Benchmark Problems
 
-![Figure 1. Rectangle of 11 km  9 km surrounding the city of Paris (Google Map)]https://github.com/Hyunjoonkim/Hyunjoonkim.github.io/blob/main/Figure%201.%20Rectangle%20of%2011%20km%20%EF%82%B4%209%20km%20surrounding%20the%20city%20of%20Paris%20(Google%20Map).jpg?raw=true
+  Given that a set of HRSs are already located, we propose to locate incrementally one or two new HRSs at the saturation point when all HRSs have nmax of customers.
+  We represent the city of Paris (11 km x 9 km) by a rectangular grid defined from (0,0) to (110,90) with 10,101 possible locations in which new HRSs can be located. The first existing HRS is installed close to Pont de l’Alma (see Figure 1). Considering that taxis are moving everywhere within the city, we assume that demand points are uniformly distributed in the city. Each HRS can supply a maximum of 200 kg/day which corresponds to a maximal number of customers per day nmax = 125. In appendix 1, we calculate the minimum number of customers to attract to reach the payback period in 5 years, nmin = 36.
+  
+  We choose 5 cases of incremental HRS launching as follows:
+- Case 1: Extend one existing HRS to two HRSs (one additional HRS)
+- Case 2: Extend two existing HRSs to three HRSs (one additional HRS)
+- Case 3: Extend one existing HRS to three HRSs (two additional HRSs)
+- Case 4: Extend seven existing HRSs to eight HRSs (one additional HRS)
+- Case 5: Extend seven existing HRSs to nine HRSs (two additional HRSs)
+
+
+![Figure 1  Rectangle of 11 km  9 km surrounding the city of Paris (Google Map)](https://user-images.githubusercontent.com/29350999/102963167-cbcc3480-452b-11eb-8b16-491b7dd11c40.jpg)
+
+
+Table 1 shows the data used in the 5 cases. In our mathematical models and proposed algorithm, the Minkowski distance, cij=(|dx|p +|dy|p)1/p with p=1.31, where dx represents the distance between two points (locations i and j) along the first axis, and dy along the second axis.
+
+
+The parameters used in the algorithm are as follows.
+- We choose to represent the city by the grid of 111  91 cells, considering the geography of Paris (Figure 1) with 1 cell ≈ 100 meters.
+- The minimum and the maximum number of customers related to HRS capacity, denoted by nmin and nmax, are set to 36 and 125, respectively. The dmin, used to make the eligible potential points set Ie, is set to 35.5, which is the quarter of the city area’s diagonal length.
+
+The 5 benchmark data sets can be downloaded by click here.
+There are three input files for each case.
+1. “Demand_coordinate_Case#.csv” - a set of demand customers is given with the following characteristics: Demand index, X coordinate, Y coordinate
+2. “Existing_HRS_coordinate_Case#.csv” - a set of existing HRSs is given with the following characteristics: Existing HRS index, X coordinate, Y coordinate
+3. “Option.csv” - a set of parameters used in the experiments: X-axis range, Y-axis range, W1, W2, nmin, nmax, p value used in Minkowski distance calculation, dmin
+
+
 
 - Bulleted
 - List
